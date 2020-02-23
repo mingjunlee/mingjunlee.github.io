@@ -12,6 +12,7 @@ html{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    position: fixed;
 }
 .body{
     background-color: lightgrey;
@@ -23,8 +24,9 @@ html{
 }
 .content{
     font-size: 12px;
-    text-justify: auto;
+    text-justify: left;
     color: black;
+    width: 50vw;
 }
 
 
